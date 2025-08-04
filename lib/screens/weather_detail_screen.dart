@@ -42,7 +42,7 @@ class _WeatherDetailScreenState extends State<WeatherDetailScreen> {
   bool _isLoading = true;
 
   final Dio _dio = Dio();
-  final String _apiKey = '07155427cc775958a854f0cf1273a415';
+  final String _apiKey = '';
 
   @override
   void initState() {
